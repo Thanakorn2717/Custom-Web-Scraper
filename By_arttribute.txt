@@ -1,0 +1,8 @@
+By.ID                   --> element = driver.find_element(By.ID, "element-id")
+By.CLASS_NAME           --> element = driver.find_element(By.CLASS_NAME, "class-name")
+By.NAME                 --> element = driver.find_element(By.NAME, "element-name")
+By.TAG_NAME             --> element = driver.find_element(By.TAG_NAME, "input")
+By.LINK_TEXT            --> element = driver.find_element(By.LINK_TEXT, "Click Here")
+By.PARTIAL_LINK_TEXT    --> element = driver.find_element(By.PARTIAL_LINK_TEXT, "Click")
+By.CSS_SELECTOR         --> element = driver.find_element(By.CSS_SELECTOR, ".class-name #id-name")
+By.XPATH                --> element = driver.find_element(By.XPATH, "//div[@id='element-id']")
